@@ -1,0 +1,41 @@
+*{
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color: #000000;
+}
+body {
+  font-family: 'Major Mono Display', monospace;
+ margin: 0;
+  color: #141414;
+  background-color:#141414;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+html {
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+background-color:#000000;
+width: 12px;
+}
+::-webkit-scrollbar-thumb {
+  background-color:#ffa500;
+  border: 1px solid #141414;
+  width: 2px;
+  border-radius: 6px;
+}

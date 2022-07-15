@@ -1,0 +1,74 @@
+.introducao {
+  background-color:#ff1491;
+  padding: 70px 200px;
+  display: flex;
+  color: #ffffff;
+  border-bottom: 1px solid #000000;
+  justify-content: center;
+}
+.all {
+  width: 800px;
+  height: 500px;
+  background-color: rgb(29, 26, 26);
+  padding: 50px;
+  line-height: 30px;
+}
+.desc {
+   padding: 20px 0px;
+}
+.texto{
+  font-size: 14px;
+  margin-top: 40px;
+  text-indent: 20px;
+}
+.nome::before{
+  display: block;
+  position: absolute;
+  top: 325px;
+  content: " ";
+  width: 100px;
+  height: 6px;
+  background-color:#FFFF00;
+  box-shadow: 3px 3px  #ff1491;
+}
+.img-sobre {
+ height: 500px;
+   filter: grayscale(50%);
+}
+.titulo {
+  display: flex;
+ justify-content: center;
+ align-items: center;
+}
+h2{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+  text-align: center;
+  position: absolute;
+ background-color: #ffa500;
+ width: 150px;
+ height: 80px;
+ text-align: center;
+ border: 1px solid #000000;
+}
+.art{
+  z-index: -1;
+  position: relative;
+}
+.art > p {
+ background-color: #ffa500;
+ position: absolute;
+ bottom: 0px;
+ border: 1px solid #000000;
+}
+.sec {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.image {
+ object-fit: cover;
+ width: 1000px;
+ height: 500px;
+}
